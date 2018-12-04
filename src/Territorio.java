@@ -3,11 +3,17 @@ import java.awt.*;
 
 public class Territorio extends JPanel {
     private static final int ALTURA_BARRA_TITULO = 20;
+
     public int contador = 0;
+
     private JFrame frame;
+
     private Ser ser;
+
     KeyListener listener = new LeitorSetas(ser);
+
     addKeyListener(listener);
+    
     setFocusable(true);
 
 
