@@ -13,7 +13,6 @@ public class Territorio extends JPanel {
     KeyListener listener = new LeitorSetas(ser);
 
     addKeyListener(listener);
-    
     setFocusable(true);
 
 
